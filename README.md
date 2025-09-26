@@ -1,6 +1,6 @@
 🎬 Movie Library
 
-Live Demo: movie-library-steel-chi.vercel.app
+Live Demo: [movie-library-steel-chi.vercel.app](https://movie-library-steel-chi.vercel.app/)
 
 A React.js Movie Library Web App that allows users to search for movies, view movie details, watch trailers, and manage a personal Watchlist. Built with The Movie Database (TMDb) API and hosted on Vercel.
 
