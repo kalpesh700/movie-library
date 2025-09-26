@@ -1,16 +1,64 @@
-# React + Vite
+🎬 Movie Library
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Demo: movie-library-steel-chi.vercel.app
 
-Currently, two official plugins are available:
+A React.js Movie Library Web App that allows users to search for movies, view movie details, watch trailers, and manage a personal Watchlist. Built with The Movie Database (TMDb) API and hosted on Vercel.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📌 Project Overview
 
-## React Compiler
+This project is a movie search and watchlist management app that enables users to:
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Search movies by name with auto-suggestions
 
-## Expanding the ESLint configuration
+View movie details, including title, release date, and overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Watch trailers via YouTube
+
+Add movies to a personal Watchlist stored in the browser
+
+View and manage Watchlist (add/remove movies)
+
+Navigate between main Movies page and Watchlist page
+
+🛠 Tech Stack
+
+Frontend: React.js, Tailwind CSS
+
+Routing: React Router
+
+API: The Movie Database (TMDb) API
+
+Deployment: Vercel
+
+Storage: Local Storage (for Watchlist)
+
+⚙ Features
+Search:
+
+Live search suggestions when typing
+
+Search results with movie posters, titles, release date, and overview
+
+Movie Details
+
+Poster image
+
+Movie title
+
+Release date
+
+Overview
+
+Watchlist
+
+Add movies to Watchlist
+
+Remove movies from Watchlist
+
+Persistent Watchlist stored in local storage
+
+Watchlist page with the same movie layout
+
+Trailer
+
+Opens movie trailer on YouTube in a new tab
